@@ -1,0 +1,59 @@
+{
+    "cards":{
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "orange": 0,
+        "grey": 0,
+        "dark_green": 0,
+        "black"
+    },
+    "combinations":{
+        "orange":[
+            [
+                {
+                    "card": "red",
+                    "number": 3
+                }
+            ]
+        ],
+        "grey":[
+            [
+                {
+                    "card": "blue",
+                    "number": 3
+                }
+            ]
+        ],
+        "dark_green":[
+            [
+                {
+                    "card": "green",
+                    "number": 3
+                }
+            ]
+        ],
+        "black":[
+            [
+                {
+                    "card": "orange",
+                    "number": 1
+                },
+                {
+                    "card": "grey",
+                    "number": 1
+                },
+                {
+                    "card": "dark_green",
+                    "number": 1
+                }
+            ]
+        ]
+    },
+    "actions":[
+        "draw",
+        "merge",
+        "idraw",
+        "imerge"
+    ]
+}
